@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+
+    <section>
+        <div>
+
+            <p id="input1">
+            <label for="boxstart">Início: </label>
+            <input type="number" name="boxstart" id="boxstart">
+            </p>
+
+            <p id = "input2">
+                <label for="boxend">Fim: </label> 
+                <input type="number" name="boxend" id="boxend">
+            </p>
+
+           <p>
+                <label for="boxjump">Pulo: </label>
+                <input type="number" name="boxjump" id="boxjump">
+            </p>
+
+            <p>
+                <input type="button" value="contar" onclick="contar()">
+            </p>
+        </div >
+        
+        <div id="res">
+            Preparando contagem...
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy;MiaLuz</p>
+    </footer>
+    
+    <script src="script.js"></script> 
+</body>
+</html>
